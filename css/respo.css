@@ -1,0 +1,192 @@
+@media (max-width: 1315px) {
+    .blog__elements {
+        width: 50vw;
+    }
+}
+@media (max-width: 1300px) {
+    .contact__form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .blog__elements {
+        width: 73vw;
+    }
+}
+@media (max-width: 1115px) {
+    .iconbar__box:nth-last-child(2)::before,
+    .iconbar__box:nth-last-child(3)::before {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .menu__item {
+        padding-left: 30px;
+    }
+    .shop {
+        padding-top: 100px;
+    }
+    .shop__content {
+        float: none;
+        padding-right: 0px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .shop__title {
+        font-size: 5em;
+        text-align: right;
+        margin-top: -105px;
+    }
+    .shop__content p {
+        width: 100%;
+        text-align: right;
+    }
+    .shop__btn {
+        position: absolute;
+        right: 25px;
+    }
+    .shop__price {
+        text-align: right;
+        padding: 60px 0 50px;
+    }
+}
+@media (max-width: 960px) {
+    .hamburger {
+        display: block;
+        width: 50px;
+        height: 37px;
+        background: url('../img/hamburger.png');
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        border: 0;
+    }
+    .menu__item {
+        display: block;
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
+    .nav__logo {
+        display: block;
+        width: 78px;
+        height: 68px;
+        position: relative;
+        left: 50%;
+        top: 0;
+        float: none;
+        padding: 10px 0;
+        transform: translate(-50%);
+        transition-duration: 5s;
+    }
+    .nav__menu {
+        position: fixed;
+        z-index: 10;
+        display: none;
+        width: 50%;
+    }
+    .nav__menu--toogle {
+        width: 50vw;
+        left: 50%;
+        display: block;
+        background-color: white;
+        position: relative;
+        top: 30px;
+        float: none;
+    }
+    .blog__elements {
+        width: 99vw;
+    }
+}
+@media (max-width: 768px) {
+    .contents{
+        text-align: justify;
+    }
+    .reservation{
+        padding-top: 90px;
+    }
+    .blog .contents {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .menu__item {
+        display: block;
+        padding: 0px 0 20px 0;
+        text-align: center;
+    }
+    .menu__link {
+        font-size: 1.4em;}
+    .reciple__image {
+        display: none;
+    }
+    .reciple__content {
+        background-color: #fff2ed;
+    }
+    .reciple__title {
+        font-size: 3em;
+    }
+    .gallery__half {
+        width: 100%;
+        display: inline-block;
+    }
+    .gallery__quarter {
+        width: 50%;
+        flex-direction: row;
+    }
+    .contact__form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contact__input {
+        width: 100%;
+        display: block;
+        margin-top: -10px;
+    }
+}
+@media (max-width: 480px) {
+    .contents {
+        text-align: justify;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__logo {
+        padding: 10px;
+    }
+    .header__title {
+        font-size: 6em;
+    }
+    .slider {
+        padding-top: 50px;
+    }
+    .menu__item {
+        display: block;
+        padding: 5px 0 20px 0;
+        text-align: center;
+    }
+    .header {
+        max-height: 560px;
+        background: url('../img/bg_header_little.jpg') center/cover;
+    }
+     .shop {
+        max-height: 560px;
+        background: url('../img/bg_shop_little.jpg') center/cover;
+    }
+    .reciple__image {
+        display: none;
+    }
+    .reciple__content {
+        background-color: #fff2ed;
+    }
+    .reciple__title {
+        font-size: 3em;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery__quarter,
+    .gallery__half {
+        width: 100%;
+        display: inline-block;
+    }
+}
